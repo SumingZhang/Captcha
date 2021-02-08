@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CAPTCHA Check</title>
+</head>
+<body>
+	
+<div>
+	<h1>Are you a robot?</h1>
+          </div>
+<h2>Please enter the following CAPTCHA code to browse</h2> 
+<form action="/Human" method="POST">           
+<input type="text" id="test" name="test" placeholder="Enter The Code Here"><br><br>
+
+            <button type="submit" class="btn btn-primary btn-large" >ENTER</button>
+            <input type="submit" value="Submit">
+             <br><small>Hint: Try to type in Suming</small><br>
+  </form>
+
+ <center><h3>Captcha Code</h3><img src="{{user_image}}" alt="Mike"></center>
+
+</body>
+</html>
